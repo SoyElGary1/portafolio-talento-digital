@@ -13,7 +13,7 @@ const cards = [
 
     },
     {
-        cardText: 'Portafolio',
+        cardText: 'Portafolio para talento digital',
         img: './assets/img/portafolio.jpg',
         href:'https://soyelgary1.github.io/portafolio-talento-digital/',
         alt: 'Imagen del encriptador de portafolio'
