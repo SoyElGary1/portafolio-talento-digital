@@ -1,17 +1,22 @@
 const cards = [
     {
-        cardText: 'Encriptador de texto desarrollado con HTML, CSS y JS',
-        img: 'https://picsum.photos/700/400?random',
-        href:'',
+        cardText: 'Encriptador de texto desarrollado',
+        img: './assets/img/encriptador.jpg',
+        href:'https://soyelgary1.github.io/Encriptador-de-texto/',
+        alt: 'Imagen del encriptador de texto'
     },
     {
-        cardText: 'Encriptador de texto desarrollado con HTML, CSS y JS',
+        cardText: 'Juego de adivinar el número',
         img: 'https://picsum.photos/700/400?random',
-        href:'',
+        href:'./assets/img/encriptador.jpg',
+        alt: 'Imagen del encriptador del juego'
+
     },
     {
-        cardText: 'Encriptador de texto desarrollado con HTML, CSS y JS',
+        cardText: 'Portafolio',
         img: 'https://picsum.photos/700/400?random',
-        href:'',
+        href:'./assets/img/encriptador.jpg',
+        alt: 'Imagen del encriptador de portafolio'
+
     }
 ]

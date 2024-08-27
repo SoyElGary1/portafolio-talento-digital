@@ -77,7 +77,8 @@ btnAbout.addEventListener('click', function () {
 
 sumbmit.addEventListener('submit', function (e) {
     e.preventDefault()
-    reinicio()
+    const formulario = document.querySelector('#form');
+    formulario.reset();
 })
 
 function mostrarProyectos() {
@@ -86,7 +87,7 @@ function mostrarProyectos() {
         newCard += (`
                 
                     <div class="card bg-dark text-white col-12 col-md-6 col-lg-4 col-xl-3 m-auto">
-                            <img src="${card.img}" width="400" class="card-img-top" alt="...">
+                            <img src="${card.img}" width="400" class="card-img-top" alt="${card.alt} target="_blank">
                             <div class="card-body">
                                 <p class="card-text">${card.cardText}</p>
                                 <ul class="d-flex gap-5">
@@ -149,10 +150,6 @@ function ocultarHtml(element) {
     element.innerHTML = ''
 }
 
-function reinicio() {
-    const formulario = document.querySelector('#form');
-    formulario.reset();
-}
 
 
 
