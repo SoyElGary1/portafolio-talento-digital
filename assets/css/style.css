@@ -42,6 +42,10 @@ li {
   border: none; 
 }
 
+.btnAbout{
+  cursor: pointer;
+}
+
 /* Ajustes adicionales en el formulario para pantallas pequeñas */
 @media (max-width: 768px) {
   #formDiv {

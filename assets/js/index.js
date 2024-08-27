@@ -87,7 +87,7 @@ function mostrarProyectos() {
         newCard += (`
                 
                     <div class="card bg-dark text-white col-12 col-md-6 col-lg-4 col-xl-3 m-auto">
-                            <img src="${card.img}" width="400" class="card-img-top" alt="${card.alt} target="_blank">
+                            <img src="${card.img}" width="400" class="card-img-top" alt="${card.alt}" >
                             <div class="card-body">
                                 <p class="card-text">${card.cardText}</p>
                                 <ul class="d-flex gap-5">
@@ -137,7 +137,7 @@ function mostrarProyectos() {
                                     </li>
                                 </ul>
                             </div>
-                            <a href="${card.href}" class="btn btn-primary">Ver proyecto</a>
+                            <a href="${card.href}" target="_blank" class="btn btn-primary">Ver proyecto</a>
                         </div>
                     `);
 

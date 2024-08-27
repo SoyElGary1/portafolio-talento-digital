@@ -7,15 +7,15 @@ const cards = [
     },
     {
         cardText: 'Juego de adivinar el número',
-        img: 'https://picsum.photos/700/400?random',
-        href:'./assets/img/encriptador.jpg',
+        img: './assets/img/juego.jpg',
+        href:'https://soyelgary1.github.io/juego-adivinar-numero/',
         alt: 'Imagen del encriptador del juego'
 
     },
     {
         cardText: 'Portafolio',
-        img: 'https://picsum.photos/700/400?random',
-        href:'./assets/img/encriptador.jpg',
+        img: './assets/img/portafolio.jpg',
+        href:'https://soyelgary1.github.io/portafolio-talento-digital/',
         alt: 'Imagen del encriptador de portafolio'
 
     }
